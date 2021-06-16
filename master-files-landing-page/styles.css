@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+/* this is the fonts properties*/
+body{
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,h2,h3,h4{
+  font-weight: bold;
+}
+
+input{
+  font-family: inherit;
+}
+
+/* this targets the logo image*/
+.logo-image {
+    max-width: 100px;
+}
+
+.container-holder {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+main{
+  padding: 5rem 0;
+}
+
+/* targetting the scooter image*/
+.main-holder {
+    background-image: url(./images/bg-image/scooter.svg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* targetting the scooter image*/
+.main-holder h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.main-holder .col-left {
+    max-width: 375px;
+}
+
+/* this styles the form and box*/
+form.apply-now {
+  background-color: #fff;
+    box-shadow: 7px 7px 24px -9px;
+    border-radius: 15px;
+    padding: 1.5rem 1.8rem;
+    max-width: 395px;
+}
+
+form.apply-now h2 {
+    margin-bottom: .5rem;
+}
+
+/* this styles the Apply now button in the form*/
+.apply-now .form-row {
+    display: block;
+    margin: 11px 0;
+}
+
+
+.apply-now input {
+
+    width: 100%;
+
+    border: 0;
+    background-color: #F4F4F5;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+/* this styles the checkbox in the form*/
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+}
+
+.apply-now .checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox label {
+    font-size: .87rem;
+    margin-left: 7px;
+}
+
+.apply-now input[type="submit"] {
+    background-color: #57EDAB;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 7px;
+    cursor: pointer;
+}
+
+/* this syles the footer*/
+.footer-form-text {
+    font-size: .67rem;
+    margin-top: .7rem;
+}
+.footer-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-form-text a {
+    text-decoration: none;
+    color: #FF8380;
+}
+
+
+footer {
+  
+padding: 2rem 0;
+  
+
+background-color: #fffd8c;
+  }
+  .footer-holder h4 {
+    margin-bottom: .5rem;
+}
+.footer-holder p {
+    font-size: .87rem;
+    margin-bottom: .5rem;
+}
+
+.footer-holder input {
+    border: 0;
+    background-color: #fff;
+    padding: 7px 12px;
+    margin-right: 7px;
+    border-radius: 7px;
+}
+
+.footer-holder input[type="submit"] {
+    background-color: #FF8380;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+
+.footer-holder ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-holder ul li {
+    margin-left: 40px;
+}
+  
+ /* targeting the scooter image*/
+  .scooter-image {
+    width: 290px,
+    height: 212px
+  }
