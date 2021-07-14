@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-/* ============ this is for the fonts of the webpage =========== */
 body {
   font-family: "Cardo", serif;
   margin: 0;
@@ -12,7 +11,6 @@ body {
   line-height: 1.5;
 }
 
-/* ============ this styles the images on the pages =========== */
 img {
   max-width: 100%;
   display: block;
@@ -36,16 +34,6 @@ ul {
   margin: 0;
 }
 
-/* ============ this is for the animation on the button  =========== */
-button {
-  font-family: inherit;
-  font-size: inherit;
-  cursor: pointer;
-  border: 0;
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: 0.25s ease;
-}
 
 input[type="submit"] {
   transition: 0.25s ease;
@@ -53,6 +41,8 @@ input[type="submit"] {
 
 a {
   text-decoration: none;
+  color: #e0c92a;
+  transition: 0.25s ease;
 }
 input:focus {
   outline: 0;
@@ -127,18 +117,19 @@ p {
   margin-bottom: 2rem;
 }
 
-.block button {
+.block .button {
   background-color: #dfca2e;
-  color: #fff;
   width: 153px;
   font-size: 17px;
   padding: 6px 0;
   color: #000;
   border-radius: 5px;
   border: 1px solid transparent;
+  display: inline-block;
+  font-weight: 700;
 }
 
-.block button:hover {
+.block .button:hover {
   border: 1px solid #dfca2e;
   background-color: #fff;
 }
@@ -313,7 +304,7 @@ footer {
   font-family: inherit;
   font-size: 16px;
 }
-.subscribe input[type="submit"]:hover {
+.subscribe input[type="submit"]:hover {       
   opacity: 0.9;
 }
 
