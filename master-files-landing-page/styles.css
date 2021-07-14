@@ -172,12 +172,6 @@
   .footer-holder ul li {
       margin-left: 40px;
   }
-    
-   /* targeting the scooter image*/
-    .scooter-image {
-      width: 290px,
-      height: 212px
-    }
   
   
     @media(max-width:768px){
