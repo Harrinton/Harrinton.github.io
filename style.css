@@ -5,6 +5,8 @@
  *, ::after, ::before {
 	box-sizing: border-box;
 }
+
+/* - ===== This is the font I used for the Headings on my porfolio ==== - */
 body {
 	font-family: 'Neue Haas Grotesk Display Pro 45 Light';
 	font-weight: normal;
@@ -24,6 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
 	font-size: 1.75rem;
 }
+
+/* - ===== This is the font I used for the body text on my porfolio==== - */
 h1, h2, h3 {
 	font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
 }
@@ -60,7 +64,7 @@ button, input, textarea {
 	line-height: inherit;
 }
 /* - =======================
-	HOME PAGE
+	THIS DESGINS THE HOME PAGE
  ======================= - */
 
 .home-header {
@@ -71,6 +75,8 @@ button, input, textarea {
 	object-fit: cover;
 	width: 100%;
 }
+
+/* - ===== This designs the explore button on the header of the homepage==== - */
 .explore-link {
 	position: absolute;
 	top: 60%;
@@ -122,6 +128,8 @@ button, input, textarea {
 .about-us p {
 	font-size: 18px;
 }
+
+/* - ===== This designs the buttons and also the animation on the buttons==== - */
 .btn-custom1 {
 	background-color: #6B6B6B;
 	display: inline-block;
@@ -147,7 +155,7 @@ img {
 	height: auto;
 }
 /* - =======================
-	SERVICE PAGE 
+	THIS DESIGNS THE SERVICE PAGE 
  ======================= - */
 
 .service-header {
@@ -184,7 +192,7 @@ img {
 	object-fit: cover;
 }
 /* - =======================
-	PORTFOLIO PAGE
+	THIS DESIGNS THE PORTFOLIO PAGE
  ======================= - */
 
 .portfolio-header {
@@ -258,7 +266,7 @@ img {
 	margin-bottom: 1.5rem;
 }
 /* - =======================
-	CONTACT PAGE
+	THIS DESIGNS THE CONTACT PAGE
  ======================= - */
 
 .contact-header {
@@ -325,7 +333,7 @@ img {
 	font-size: 20px;
 }
 /* - =======================
-	ABOUT PAGE
+	THIS IS DESIGNS THE ABOUT PAGE
  ======================= - */
 
 .about-header {
@@ -351,7 +359,7 @@ img {
 	min-height: 200px;
 	object-fit: cover;
 }
-/* Footer */
+/* This designs the Footer */
 
 footer {
 	padding-top: 1rem;
@@ -381,7 +389,7 @@ footer .right ul {
 CSS for Responsive Design
 ======================== */
 
-/* Tablet Size and Above */
+/* Media Querries For  Tablet Size And Above */
 
 @media(min-width:768px) {
 	.container {
@@ -440,7 +448,7 @@ CSS for Responsive Design
 		display: block;
 	}
 }
-/* Small Desktop And Above */
+/* Media Queries For Small Desktop And Above */
 
 @media(min-width:992px) {
 	.home-body .category {
