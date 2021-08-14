@@ -333,7 +333,7 @@ img {
 	font-size: 20px;
 }
 /* - =======================
-	THIS IS DESIGNS THE ABOUT PAGE
+	THIS DESIGNS THE ABOUT PAGE
  ======================= - */
 
 .about-header {
@@ -389,7 +389,7 @@ footer .right ul {
 CSS for Responsive Design
 ======================== */
 
-/* Media Querries For  Tablet Size And Above */
+/* Media Querries For  Devices */
 
 @media(min-width:768px) {
 	.container {
